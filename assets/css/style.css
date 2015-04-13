@@ -57,12 +57,23 @@ body {
 a {
   color: #00807a; }
 
-code {
-  font-size: small; }
-
 pre {
   margin-bottom: 1.3rem;
-  overflow: visible; }
+  overflow: visible;
+  /* For code */
+  background: #f1f0ea;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 0.9em; }
+
+code {
+  font-size: inherit;
+  border: none;
+  padding: 0;
+  font-weight: 400;
+  color: gray;
+  background: #f1f0ea;
+  line-height: 1.4em; }
 
 blockquote {
   padding-top: 1.1rem;
