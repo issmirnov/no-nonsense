@@ -24,6 +24,7 @@ gulp.task('clean', function(cb) {
 gulp.task('scripts', function() {
     // Minify and copy all JavaScript
     return streamqueue({objectMode: true},
+    	gulp.src('assets/js/jquery-1.11.3.min.js'),
         gulp.src('assets/js/jquery.fitvids.js'),
         gulp.src('assets/js/jquery.ghostrelated.js'),
         gulp.src('assets/js/selection-sharer.js'),
