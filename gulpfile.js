@@ -26,6 +26,7 @@ gulp.task('scripts', function() {
     return streamqueue({objectMode: true},
         gulp.src('assets/js/jquery.fitvids.js'),
         gulp.src('assets/js/jquery.ghostrelated.js'),
+        gulp.src('assets/js/selection-sharer.js'),
         gulp.src('assets/js/prism.js'),
         gulp.src('assets/js/theme.js')
     )
@@ -39,6 +40,7 @@ gulp.task('minify-css', function() {
         gulp.src('assets/css/normalize.css'),
         gulp.src('assets/css/foundation.css'),
         gulp.src('assets/css/fontawesome.css'),
+        gulp.src('assets/css/selection-sharer.css'),
         gulp.src('assets/css/prism.css'),
         gulp.src('assets/css/fontello.css'),
         gulp.src('assets/css/fontello-codes.css'),
